@@ -1,0 +1,30 @@
+:root{
+    --red:hsl(0, 100%, 67%);
+    --blue: hsl(252, 100%, 67%);
+    --bluebackground : hsl(252, 100%, 67%);
+    --whitecolor :  hsl(0, 0%, 100%)
+}
+
+.main-div{
+    background-color: var(--bluebackground);
+}
+.this-div{
+   width: 200px;
+   height: 200px;
+   background-color: var(--red);
+
+}
+/* p{
+    border : solid red ;
+    border-width: 3px;
+} */
+.white-div{
+    background-color: var(--whitecolor);
+}
+.round{
+    border: solid red;
+    border-width: 2px;
+    font-family: "Hanken Grotesk", sans-serif;
+    background-color: var(--bluebackground);
+    border-radius: 50%;
+}
